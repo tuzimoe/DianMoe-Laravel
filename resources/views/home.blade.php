@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    然后这里是个人中心
                 </div>
             </div>
         </div>

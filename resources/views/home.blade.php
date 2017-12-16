@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     然后这里是个人中心
                 </div>
             </div>

@@ -16,7 +16,7 @@
                             <div class=layout>
                                 <h1>Eloli</h1>
                                 <nav>
-                                    <a href="/" target=_blank>首页</a>
+                                    <a href="/">首页</a>
                                     <a href="about.html">关于</a>
                                     @if (Route::has('login'))
                                             @auth
@@ -82,14 +82,14 @@
             </article>
             <footer class=step-5>
                 <div class=htko>
-                    <p>萌啊萌，萌啊萌，哇萌死了(๑•ᴗ•๑)</div>
+                    <p>萌啊萌，哇萌死了(๑•ᴗ•๑)</div>
                 <div class=layout>
                     <div class=l>
                         <a href=https://twitter.com/eloli_moe target=_blank>@Eloli娘</a>
                         <a href=//eloli.me target=_blank>Eloli工作室运营</a>
-                        <a href=###>隶属于新西兰 Eloli Limited</a></div>
+                        <a href=#>隶属于新西兰 Eloli Limited</a></div>
                     <div class=r>
-                        <a href=http://www.miitbeian.gov.cn/ target=_blank>皖ICP备17019754号-1</a></div>
+                        <a href=http://www.miitbeian.gov.cn/ target=_blank>皖ICP备17019754号</a></div>
                 </div>
             </footer>
         </div>

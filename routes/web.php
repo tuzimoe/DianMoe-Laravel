@@ -17,7 +17,13 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('test');
 });
+Route::get('/about', function (){
+    return view('about');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@home')->name('home');
 Route::get('/i', 'HomeController@home')->name('i');
+Route::get('/admin', function () {
+    return view('admin.index');
+})->middleware(['auth', '2fa']);

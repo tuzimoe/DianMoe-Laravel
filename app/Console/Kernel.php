@@ -39,4 +39,8 @@ class Kernel extends ConsoleKernel
 
         require base_path('routes/console.php');
     }
+    //两步验证
+    protected $routeMiddleware = [
+    '2fa' => \PragmaRX\Google2FALaravel\Middleware::class,
+    ];
 }

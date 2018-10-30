@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "ed12d9aad81ec52c886b77ad08f18ca2",
@@ -16,7 +16,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Bacon/BaconQrCode/5a91b62b9d37cee635bbf8d553f4546057250bee.zip",
+                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/5a91b62b9d37cee635bbf8d553f4546057250bee",
                 "reference": "5a91b62b9d37cee635bbf8d553f4546057250bee",
                 "shasum": ""
             },
@@ -273,7 +273,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/z-song/laravel-admin/fe40c19b644ac069e6e611fe0f08cb4d80aa9e6a.zip",
+                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/fe40c19b644ac069e6e611fe0f08cb4d80aa9e6a",
                 "reference": "fe40c19b644ac069e6e611fe0f08cb4d80aa9e6a",
                 "shasum": ""
             },
@@ -335,19 +335,20 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.6.4",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "fbe3fe878f4fe69048bb8a52783a09802004f548"
+                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/fbe3fe878f4fe69048bb8a52783a09802004f548",
-                "reference": "fbe3fe878f4fe69048bb8a52783a09802004f548",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
                 "shasum": ""
             },
             "require": {
+                "ext-mbstring": "*",
                 "php": ">=5.3.0"
             },
             "require-dev": {
@@ -376,7 +377,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2017-11-14T20:44:03+00:00"
+            "time": "2018-03-08T01:11:30+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1038,7 +1039,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/paragonie/constant_time_encoding/7c74c5d08761ead7b5e89d07c854bc28eb0b2186.zip",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/7c74c5d08761ead7b5e89d07c854bc28eb0b2186",
                 "reference": "7c74c5d08761ead7b5e89d07c854bc28eb0b2186",
                 "shasum": ""
             },
@@ -1148,7 +1149,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/antonioribeiro/google2fa/5a818bda62fab0c0a79060b06d50d50b5525d631.zip",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/5a818bda62fab0c0a79060b06d50d50b5525d631",
                 "reference": "5a818bda62fab0c0a79060b06d50d50b5525d631",
                 "shasum": ""
             },
@@ -1209,7 +1210,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/antonioribeiro/google2fa-laravel/38bd96a1732b9dea963c52e0f503a65265c077c9.zip",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa-laravel/zipball/38bd96a1732b9dea963c52e0f503a65265c077c9",
                 "reference": "38bd96a1732b9dea963c52e0f503a65265c077c9",
                 "shasum": ""
             },
@@ -1811,7 +1812,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/dom-crawler/dc847845c66fa68ad4522ed27e62b9b9dd12ab3b.zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/dc847845c66fa68ad4522ed27e62b9b9dd12ab3b",
                 "reference": "dc847845c66fa68ad4522ed27e62b9b9dd12ab3b",
                 "shasum": ""
             },
@@ -2180,7 +2181,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/polyfill-php56/265fc96795492430762c29be291a371494ba3a5b.zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/265fc96795492430762c29be291a371494ba3a5b",
                 "reference": "265fc96795492430762c29be291a371494ba3a5b",
                 "shasum": ""
             },
@@ -2295,7 +2296,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/polyfill-util/6e719200c8e540e0c0effeb31f96bdb344b94176.zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/6e719200c8e540e0c0effeb31f96bdb344b94176",
                 "reference": "6e719200c8e540e0c0effeb31f96bdb344b94176",
                 "shasum": ""
             },

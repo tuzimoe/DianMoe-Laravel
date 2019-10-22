@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed12d9aad81ec52c886b77ad08f18ca2",
+    "content-hash": "4bb66d9439e51d9fd056fbdadd09a9dd",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1034,24 +1034,24 @@
         },
         {
             "name": "paragonie/constant_time_encoding",
-            "version": "v2.2.1",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/constant_time_encoding.git",
-                "reference": "7c74c5d08761ead7b5e89d07c854bc28eb0b2186"
+                "reference": "55af0dc01992b4d0da7f6372e2eac097bbbaffdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/7c74c5d08761ead7b5e89d07c854bc28eb0b2186",
-                "reference": "7c74c5d08761ead7b5e89d07c854bc28eb0b2186",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/55af0dc01992b4d0da7f6372e2eac097bbbaffdb",
+                "reference": "55af0dc01992b4d0da7f6372e2eac097bbbaffdb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6",
-                "vimeo/psalm": "^0.3|^1"
+                "phpunit/phpunit": "^6|^7",
+                "vimeo/psalm": "^1|^2"
             },
             "type": "library",
             "autoload": {
@@ -1092,37 +1092,33 @@
                 "hex2bin",
                 "rfc4648"
             ],
-            "time": "2018-01-23T00:54:57+00:00"
+            "time": "2019-01-03T20:26:31+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.17",
+            "version": "v9.99.99",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
-                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.0"
+                "php": "^7"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*|5.*"
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
             },
             "suggest": {
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
             },
             "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1141,34 +1137,30 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-04T16:31:37+00:00"
+            "time": "2018-07-02T15:55:56+00:00"
         },
         {
             "name": "pragmarx/google2fa",
-            "version": "v2.0.7",
+            "version": "v7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/google2fa.git",
-                "reference": "5a818bda62fab0c0a79060b06d50d50b5525d631"
+                "reference": "0afb47f8a686bd203fe85a05bab85139f3c1971e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/5a818bda62fab0c0a79060b06d50d50b5525d631",
-                "reference": "5a818bda62fab0c0a79060b06d50d50b5525d631",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/0afb47f8a686bd203fe85a05bab85139f3c1971e",
+                "reference": "0afb47f8a686bd203fe85a05bab85139f3c1971e",
                 "shasum": ""
             },
             "require": {
                 "paragonie/constant_time_encoding": "~1.0|~2.0",
-                "paragonie/random_compat": "~1.4|~2.0",
+                "paragonie/random_compat": ">=1",
                 "php": ">=5.4",
                 "symfony/polyfill-php56": "~1.2"
             },
             "require-dev": {
-                "bacon/bacon-qr-code": "~1.0",
-                "phpunit/phpunit": "~4|~5|~6"
-            },
-            "suggest": {
-                "bacon/bacon-qr-code": "Required to generate inline QR Codes."
+                "phpunit/phpunit": "~4|~5|~6|~7|~8"
             },
             "type": "library",
             "extra": {
@@ -1185,7 +1177,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
@@ -1199,33 +1191,32 @@
                 "2fa",
                 "Authentication",
                 "Two Factor Authentication",
-                "google2fa",
-                "laravel"
+                "google2fa"
             ],
-            "time": "2018-01-06T16:21:07+00:00"
+            "time": "2019-10-21T17:49:22+00:00"
         },
         {
             "name": "pragmarx/google2fa-laravel",
-            "version": "v0.1.4",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antonioribeiro/google2fa-laravel.git",
-                "reference": "38bd96a1732b9dea963c52e0f503a65265c077c9"
+                "reference": "4ccc17dbf5ab5f752113cb6088a5afce5191309e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antonioribeiro/google2fa-laravel/zipball/38bd96a1732b9dea963c52e0f503a65265c077c9",
-                "reference": "38bd96a1732b9dea963c52e0f503a65265c077c9",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa-laravel/zipball/4ccc17dbf5ab5f752113cb6088a5afce5191309e",
+                "reference": "4ccc17dbf5ab5f752113cb6088a5afce5191309e",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": ">=5.2",
-                "php": ">=5.4",
-                "pragmarx/google2fa": "~2.0"
+                "laravel/framework": ">=5.4.36",
+                "php": ">=7.0",
+                "pragmarx/google2fa-qrcode": "^1.0"
             },
             "require-dev": {
-                "benconstable/phpspec-laravel": "~3.0",
-                "phpspec/phpspec": "~3"
+                "orchestra/testbench": "3.4.*|3.5.*|3.6.*|3.7.*|4.*",
+                "phpunit/phpunit": "~5|~6|~7|~8"
             },
             "suggest": {
                 "bacon/bacon-qr-code": "Required to generate inline QR Codes.",
@@ -1238,7 +1229,7 @@
                     "Laravel"
                 ],
                 "branch-alias": {
-                    "dev-master": "0.1-dev"
+                    "dev-master": "0.2-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1252,7 +1243,7 @@
             "autoload": {
                 "psr-4": {
                     "PragmaRX\\Google2FALaravel\\": "src/",
-                    "spec\\PragmaRX\\Google2FALaravel\\": "tests/spec/"
+                    "PragmaRX\\Google2FALaravel\\Tests\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1273,7 +1264,65 @@
                 "google2fa",
                 "laravel"
             ],
-            "time": "2017-12-06T03:26:14+00:00"
+            "time": "2019-10-21T18:34:37+00:00"
+        },
+        {
+            "name": "pragmarx/google2fa-qrcode",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonioribeiro/google2fa-qrcode.git",
+                "reference": "fd5ff0531a48b193a659309cc5fb882c14dbd03f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa-qrcode/zipball/fd5ff0531a48b193a659309cc5fb882c14dbd03f",
+                "reference": "fd5ff0531a48b193a659309cc5fb882c14dbd03f",
+                "shasum": ""
+            },
+            "require": {
+                "bacon/bacon-qr-code": "~1.0|~2.0",
+                "php": ">=5.4",
+                "pragmarx/google2fa": ">=4.0"
+            },
+            "require-dev": {
+                "khanamiryan/qrcode-detector-decoder": "^1.0",
+                "phpunit/phpunit": "~4|~5|~6|~7"
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PragmaRX\\Google2FAQRCode\\": "src/",
+                    "PragmaRX\\Google2FAQRCode\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Carlos Ribeiro",
+                    "email": "acr@antoniocarlosribeiro.com",
+                    "role": "Creator & Designer"
+                }
+            ],
+            "description": "QR Code package for Google2FA",
+            "keywords": [
+                "2fa",
+                "Authentication",
+                "Two Factor Authentication",
+                "google2fa",
+                "qr code",
+                "qrcode"
+            ],
+            "time": "2019-03-20T16:42:58+00:00"
         },
         {
             "name": "psr/container",
@@ -2240,16 +2289,16 @@
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.6.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "265fc96795492430762c29be291a371494ba3a5b"
+                "reference": "0e3b212e96a51338639d8ce175c046d7729c3403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/265fc96795492430762c29be291a371494ba3a5b",
-                "reference": "265fc96795492430762c29be291a371494ba3a5b",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/0e3b212e96a51338639d8ce175c046d7729c3403",
+                "reference": "0e3b212e96a51338639d8ce175c046d7729c3403",
                 "shasum": ""
             },
             "require": {
@@ -2259,7 +2308,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -2292,7 +2341,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -2355,16 +2404,16 @@
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.6.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "6e719200c8e540e0c0effeb31f96bdb344b94176"
+                "reference": "4317de1386717b4c22caed7725350a8887ab205c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/6e719200c8e540e0c0effeb31f96bdb344b94176",
-                "reference": "6e719200c8e540e0c0effeb31f96bdb344b94176",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/4317de1386717b4c22caed7725350a8887ab205c",
+                "reference": "4317de1386717b4c22caed7725350a8887ab205c",
                 "shasum": ""
             },
             "require": {
@@ -2373,7 +2422,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -2403,7 +2452,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-10-11T12:05:26+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/process",
@@ -3798,6 +3847,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-12-10T08:01:53+00:00"
         },
         {
